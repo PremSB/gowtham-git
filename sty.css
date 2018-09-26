@@ -1,0 +1,63 @@
+
+body{background-image: url(IMG_8941.jpg) ;
+	}
+
+	.NAME{
+	color:  white;
+	margin: 50px;
+	text-orientation: left;
+	text-align: center;
+}
+
+
+.details{
+
+	margin left: 50px;
+	align-content: center;
+	color: white;	
+
+}
+.Photography{
+	color: white;
+    float: left;
+}
+.design{
+	color: white;
+    float: right;
+}
+.design-mob{
+	display: none;
+	color: white;
+	float: left;
+}
+@media screen and (max-width: 600px)
+{
+	.design{
+		display: none;
+	}
+	.design-mob{
+		display: block;
+	}
+}
+.contact{
+	text-align: center;
+	color: white;
+	margin-top: 275px;
+}
+.contact-mob{
+	display: none;
+	text-align: center;
+	color: white;
+	margin-top: 275px;
+}
+@media screen and (max-width: 600px)
+{
+	.contact{
+		display: none;
+	}
+	.contact-mob{
+		display: block;
+		text-align: center;
+	    color: white;
+	    margin-top: 750px;
+	}
